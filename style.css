@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather:wght@300;900&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Macondo", cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 89px;
+    background-color: black;
+    color: white;
+    
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img{
+    width: 70px;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius:13px;
+    padding: 15px;
+    background-image: url(bg.jpg);
+
+}
+
+.songItem {
+	min-width: 40vh;
+	display: flex;
+	height: 85px;
+	display: flex;
+	
+	width: 50%;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 35px;
+}
+    
+.songItem img{
+    display: flex;
+    margin-left: 0px;
+    width: 12%;
+    border-radius: 13px;  
+
+}
+
+.TimeStamp {
+	margin: 0 15px;
+	align-items: center;
+	display: flex;
+}
+.TimeStamp i{
+    size: 100%;
+    position: sticky;
+    margin: 10px;
+
+}
+
+
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.SongInfo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left:9vw;
+    margin: -4px 0 0 0;
+}
+.SongInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    margin: 40px 0 0 0 ;
+}
+
+.icons{
+    margin-top: 10px;
+    margin-left: 10px;
+   border-bottom: 1px solid;
+   font-size: 1.6rem;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 160vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom input{
+    cursor: pointer;
+}
+.container i{
+    cursor: pointer;
+}
